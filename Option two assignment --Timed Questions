@@ -1,0 +1,70 @@
+Option two assignment --Timed Questions
+
+ or, create an object for each question, as well as answers for each question
+	-setquestion function like starwars game?
+-create an array of objects, with each object holding a question as well as the answers
+	-var currentQuestion will hold the position of the questions array.
+	-current question starts at 0
+	-var current answer will hold the position of the answer array???
+
+	var questions=[
+		question1{
+			question: String,
+			answer: [answer1, answer2, answer3, answer4]
+		},
+		question2{
+			question: String,
+			answer: [answer1, answer2, answer3, answer4]
+		},
+		question3{
+			question: String,
+			answer: [answer1, answer2, answer3, answer4]
+		}
+	]
+displayQuestion(){
+	this will access the current question from the array based on the question counter variable
+}
+create startTrivia(){	
+
+	- var next= setInterval(afunction, 30 seconds)
+}
+
+-once user clicks start, start the first questions/game function starts
+	-Displays only one question until the player answers it correctly or the time runs out
+	-displayQuestion function
+	-create the form based on the current question as well as the answers using jquery and append it to the respective divs on the page
+
+-if the answer is correct show a congragulations screen, and after a couple of seconds, display the next question
+	-
+
+-if the answer is incorrect
+	-page shows up telling user the answer is wrong and display the correct answer
+-if the time runs out
+	-page shows up telling user they ran out of time and display the correct answer
+
+-Final screen shows stats
+	-number answered correctly
+	-number answered incorrectly
+	-option to restart the page(without reloading the answer)
+-create a function for next question?
+	-this will populate the html with everything in the respective question(either object of arrays or object questions)
+	-this will happen once the time runs out, or once the user chooses an answer
+	-so you will need a way to access the questions as well as the answers
+
+on start trivia game{
+	use setInterval(decrement, 1000)
+}
+
+once time==0 or all answers are done{
+	clearInterval();
+	count= original number;
+}
+
+time= amount of seconds to start at
+	-use count function for set interval and increment time
+	-activity 10 week 3
+convertedTime
+	-create converted time function
+	-pass in current time into converted time(as arguement)
+		-this will convert the time
+		-use activity 10 week3

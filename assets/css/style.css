@@ -1,0 +1,65 @@
+body{
+	background-color: #DEDCCF;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+#content{
+	width: 80%;
+	height: 100%;
+	background-color: #626E65;
+	margin: 0 auto;
+	margin-top: 60px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+#startPage button{
+	width: 200px;
+	height: 40px;
+	margin-top: 90px;
+	font-size: 20px;
+}
+#statsPage .restart{
+	width: 200px;
+	height: 40px;
+	margin-top: 100px;
+	font-size: 20px;
+}
+#startPage h1{
+	font-size: 50px;
+	color: white;
+}
+#startPage{
+	text-align: center;
+}
+
+#questionPage{
+	text-align: center;
+	font-size: 32px;
+}
+
+#answerPage{
+	text-align: center;
+	font-size: 32px;
+	height: 100%;
+}
+
+.answer:hover{
+	border: 1px solid grey;
+	color: white;
+}
+
+#time{
+	/*border-bottom: 1px solid grey;*/
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#statsPage{
+	text-align: center;	
+	font-size: 40px;
+}
+
+#question, #time, #answer{
+	color: white;
+}
